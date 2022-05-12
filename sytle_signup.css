@@ -1,0 +1,80 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family:sans-serif;
+
+}
+
+body {
+  background-image: url('bg2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.Login{
+
+    width: 50%;
+    top: 30%;
+    left: 28%;
+    transform: translate(-50px, -50px); 
+    position: absolute;
+    color: black;
+    }
+
+.Login h1 {
+    font-size: 55px;
+    text-align: center;
+    /* text-transform: uppercase; */
+    margin: 20px 0;
+
+
+}
+
+
+.Login p {
+
+    font-size: 35px;
+    font: bold;
+    color: black;
+    margin: 15px 0;
+
+
+}
+
+.Login input[type="text"] ,input[type="password"],input[type="text"],input[type="tel"],input[type="email"]{
+    font-size: 16px;
+    width: 100%;
+    padding: 15px 10px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+
+
+
+}
+
+.Login input[type="checkbox"] {
+        margin-top: 10px;
+
+}  
+
+.Login button{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    
+    padding: 10px 15px;
+    width: 50%;
+    border-radius: 5px;
+    border: none;
+
+}
+
+
+
+.logo p{
+    margin: 20px 0;
+
+    text-align: center;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./sytle_signup.css">
+    
+    <title>TASK 1 signup(12-5)</title>
+</head>
+<body>
+    <div class="logo">
+        <p style="font-size: 80px; color: crimson;"><b>Cricket Score<b></p>
+            
+
+    </div>
+    
+    <div class="Login">
+        <form action="action1.php" method="post">
+            <h1>Create an Account</h1>
+            <p>User name:</p>
+            <input type="text" name="user" placeholder="Enter username">
+            <p>Email:</p>
+            <input type="email" name="email" placeholder="Enter Email address">
+            <p>Mobile Number:</p>
+            <input type="tel" name="mob.no." placeholder="Enter phone number">
+            <p>Password:</p>
+            <input type="password" name="password" placeholder="Enter password" id="myInput"><br>
+
+            <input type="checkbox" onclick="myFunction()">Show Password
+           <br>
+            <button type="submit">Login</button>
+            <br>
+            <a href="#" class="fa fa-google"></a>
+            
+        </form>
+    </div>    
+    
+</body>
+<script>
+    function myFunction() {
+      var x = document.getElementById("myInput");
+      if (x.type === "password") {
+        x.type = "text";
+      } else {
+        x.type = "password";
+      }
+    }
+    </script>
+
+</html>
+
+
+
+
